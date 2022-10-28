@@ -1,0 +1,213 @@
+/* Flexbox */
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Lexend Deca";
+}
+
+img {
+    width: 40px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+
+}
+
+p {
+    font-size: 10px;
+    text-align: left;
+    line-height: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 10% auto 0px auto;
+    padding: 0px;
+
+
+
+}
+
+.car {
+    width: 140px;
+    padding: 30px;
+
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 5px 0px 0px 5px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn {
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    font-size: 10px;
+    background-color: hsl(0, 0%, 95%);
+    font-weight: bold;
+    font-family: "Lexend Deca";
+
+}
+
+button[class~="sedan"] {
+    color: hsl(31, 77%, 52%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+button[class~="suv"] {
+    color: hsl(184, 100%, 22%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+button[class~="luxury"] {
+    color: hsl(179, 100%, 13%);
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+button[class~="sedan"]:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+button[class~="suv"]:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+button[class~="luxury"]:hover {
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.goto {
+    text-align: center;
+    margin: 20px auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ff0000;
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 12px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+/* Grid */
+
+.gridbody {
+
+    font-family: "Lexend Deca";
+    min-height: 100vh;
+    display: flex;
+    background-color: #fff;
+    place-items: center;
+}
+
+.main1 {
+    width: 100%;
+
+}
+
+.container1 {
+    margin: auto;
+    padding: 20px;
+    width: 40%;
+    height: 200px;
+    background-color: #777777;
+    display: grid;
+    grid-template-areas:
+        'a a b'
+        'c d d'
+        'c e e';
+    gap: 10px;
+}
+
+.container1 div {
+    padding: 10px;
+    text-align: center;
+}
+
+.a {
+    grid-area: a;
+    background-color: red;
+}
+
+.b {
+    grid-area: b;
+    background-color: #ff6600;
+}
+
+.c {
+    grid-area: c;
+    background-color: #06c258;
+}
+
+.d {
+    grid-area: d;
+    background-color: #0da2ff;
+}
+
+.e {
+    grid-area: e;
+    background-color: #0da2ff;
+}
+
+.goflex {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.a1 {
+    text-decoration: none;
+    color: #ff0000;
+    padding: 10px;
+    font-size: 12px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
+
+.a1:hover {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: red;
+    cursor: pointer;
+    font-size: 12px;
+    border: 2px solid red;
+    border-radius: 30px;
+}
