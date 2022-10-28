@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </link>
+</head>
+
+<body>
+
+    <form action="login.html" class="form">
+        <h1>Register Here</h1>
+
+        <div class="table">
+            <!-- First name -->
+            <label for="fname" class="title"><b>First name</b><br>
+                <input type="text" name="fname" id="fname" required maxlength="20" minlength="2"></label>
+            <!-- Last name -->
+            <label for="lname" class="title"><b>Last name</b><br>
+                <input type="text" name="lname" id="lname" required maxlength="20" minlength="2"></label>
+            <!-- Phone number -->
+            <label for="pnumber" class="title"><b>Phone number</b><br>
+                <input type="tel" name="pnumber" id="pnumber" pattern="[0-9]{11}" required></label>
+            <!-- Email -->
+            <label for="email" class="title"><b>Email</b><br>
+                <input type="email" name="email" id="email" required placeholder="example@gmail.com"
+                    title="Ensure @gmail.com is included"></label>
+            <!-- Password -->
+            <label for="pword" class="title"><b>Password (8 or more characters)</b><br>
+                <input type="password" name="pword" id="pword" required minlength="8"
+                    title="Password should be 8 characters and must end with a number"></label>
+            <!-- Gender -->
+            <label for="gender" class="title"><b>Gender</b><br>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </label>
+            <!-- DOB-->
+            <label for="dob" class="title"><b>Date of birth</b><br>
+                <input type="date" name="dob" id="dob" required></label>
+            <!--Color-->
+            <label for="color" class="title" id="col"><b>Favorite color</b><br>
+                <input type="color" name="color" id="color"></label>
+            <div class="agree">
+                <input type="checkbox" name="check" id="check"
+                    title="You have to agree to our terms of use and privacy policy" required>
+                <label for="check">Creating an account means you're okay with our <a href="#">Terms of Use</a> and <a
+                        href="#">Privacy Policy</a></label>
+            </div>
+            <input type="submit" name="reg" value="Create Account" id="create">
+            <div>
+                <p class="already">Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+
+        </div>
+    </form>
+
+
+</body>
+
+
+</html>

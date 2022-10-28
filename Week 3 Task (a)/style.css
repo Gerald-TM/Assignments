@@ -1,0 +1,369 @@
+/* Portfolio */
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: "Lexend Deca";
+    margin: 0px;
+    background-color: #fff;
+}
+
+#h41,
+a {
+    font-size: 13px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 0px;
+    position: fixed;
+    z-index: 15;
+    border-bottom: 2px solid #e7e7e7;
+    width: 100%;
+}
+
+.group {
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.icon {
+    padding: 0px;
+
+}
+
+#h11,
+#h41 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.gerald {
+    color: #ff0000;
+}
+
+nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.navlink {
+    display: inline;
+    margin: 0px 30px;
+}
+
+.link {
+    border-radius: 30px;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.link:hover {
+    border-radius: 30px;
+    background-color: #ff0000;
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+
+}
+
+.section1 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: #ebebeb;
+    margin-top: 50px;
+    width: 100%;
+    height: 50vh;
+}
+
+.section2 {
+    display: flex;
+    padding: 0px;
+    color: #fff;
+    justify-content: center;
+    background-color: #888888;
+
+    width: 100%;
+
+}
+
+.section3 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+.section4 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.section5 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    width: 100%;
+    background-color: #ebebeb;
+
+}
+
+.section6 {
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    width: 100%;
+
+}
+
+main div {
+    width: 400px;
+
+}
+
+main ul {
+    padding: 0px;
+}
+
+main li {
+    list-style-type: none;
+    text-align: center;
+    margin: 0px;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 10px;
+    text-align: justify;
+}
+
+.block1 {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.block1 h1,
+.block1 h4,
+.block1 p {
+    margin: 0px 0px 10px 0px;
+}
+
+.block1 .p2 {
+    margin-bottom: 0px;
+}
+
+.block2 {
+    display: flex;
+    align-items: flex-end;
+    width: 200px;
+    padding: 0px;
+
+}
+
+.block3,
+.block4,
+.block5,
+.block6 {
+    padding: 60px 0px;
+}
+
+.block7 {
+    padding: 20px 0px 0px 0px;
+}
+
+.block6 h5 {
+    margin: 0px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+form button {
+    margin: 10px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    width: 80px;
+
+}
+
+button:hover {
+    background-color: #fff;
+    color: #ff0000;
+    cursor: pointer;
+    border: 2px solid #ff0000;
+}
+
+#h13,
+#h14,
+#h15,
+#h16 {
+
+    color: red;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#h13 {
+    color: #fff;
+}
+
+.projects {
+    color: black;
+    list-style-type: disc;
+    font-size: 10px;
+}
+
+.projects:hover {
+    color: red;
+}
+
+.h51,
+.h52 {
+    margin: 10px;
+}
+
+img {
+    padding: 0px;
+}
+
+footer {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    color: #fff;
+}
+
+footer a {
+    border: none;
+    padding: 5px;
+    background-color: #222222;
+}
+
+footer a:hover {
+    padding: 5px;
+    border: none;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.lg {
+    display: flex;
+
+    justify-content: space-around;
+    width: 200px;
+}
+
+#email1 {
+    color: #fff;
+    text-decoration: none;
+}
+
+#email1:hover {
+
+    color: #ff0000;
+    background-color: #222222;
+    border-radius: 30px;
+
+}
+
+#p1 {
+    text-align: center;
+}
+
+/*Contact page  */
+#cpbody {
+    font-family: "Lexend Deca";
+
+
+    background-color: #fff;
+    margin: 0px;
+}
+
+.h101 {
+    text-align: center;
+
+    margin-top: 200px;
+
+}
+
+.p101 {
+    text-align: center;
+}
+
+
+.dark {
+    color: #222222;
+}
+
+.red {
+    color: #ff0000;
+}
+
+.a101 {
+    text-decoration: none;
+    border: 2px solid #fff;
+    background-color: #ff0000;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.a101:hover {
+    border: 2px solid #ff0000;
+    background-color: #fff;
+    color: #ff0000;
+
+}
